@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>WordPdfStudio</AssemblyName>
+    <RootNamespace>WordPdfStudio</RootNamespace>
+    <Version>1.0.0</Version>
+    <Product>文页 PDF</Product>
+    <Description>离线文档转换与 PDF 工具箱</Description>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>Assets/app.ico</ApplicationIcon>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <SelfContained>true</SelfContained>
+    <PublishSingleFile>true</PublishSingleFile>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+    <EnableCompressionInSingleFile>true</EnableCompressionInSingleFile>
+    <PublishTrimmed>false</PublishTrimmed>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="PDFsharp-GDI" Version="6.2.4" />
+    <Resource Include="Assets\NotoSansCJKsc-Regular.otf" />
+    <EmbeddedResource Include="../engine/libreoffice.zip" LogicalName="WordPdfStudio.Engine.libreoffice.zip" Condition="Exists('../engine/libreoffice.zip')" />
+  </ItemGroup>
+</Project>

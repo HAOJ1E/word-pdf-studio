@@ -1,0 +1,53 @@
+文页 PDF - 第三方组件说明
+==========================
+
+本程序使用以下第三方组件。各组件保留其原始版权及许可。
+
+1. LibreOffice 26.2.6
+   Copyright The Document Foundation and contributors.
+   License: Mozilla Public License 2.0 and other licenses applying to bundled components.
+   完整的 LICENSE.html、license.txt 与 NOTICE 随离线转换引擎一起分发，首次转换后可在：
+   %LOCALAPPDATA%\WordPdfStudio\engine\26.2.6\
+   查看。
+   https://www.libreoffice.org/about-us/licenses/
+
+2. PDFsharp 6.2.4
+   Copyright empira Software GmbH and contributors.
+   License: MIT
+   https://github.com/empira/PDFsharp
+
+3. .NET 10 Runtime
+   Copyright .NET Foundation and contributors.
+   License: MIT；完整第三方声明见 DOTNET-THIRD-PARTY-NOTICES.txt。
+   https://github.com/dotnet/runtime
+
+4. Microsoft Visual C++ Runtime
+   Copyright Microsoft Corporation.
+   根据 Microsoft Visual Studio 可再发行代码条款分发，组件仅供本程序及内置转换引擎运行。
+   https://learn.microsoft.com/cpp/windows/redistributing-visual-cpp-files
+
+5. Noto Sans CJK SC
+   Copyright 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'.
+   Copyright 2014-2021 Google LLC.
+   License: SIL Open Font License 1.1，完整条款见 NOTO-OFL.txt。
+   https://github.com/notofonts/noto-cjk
+
+MIT License
+-----------
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
