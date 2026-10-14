@@ -20,7 +20,7 @@
 
 ## 使用方法
 
-1. 在 [Releases](../../releases) 下载 `文页PDF_离线便携版_v1.0.exe`。
+1. 在 [Releases](../../releases) 下载 `WenyePDF-Portable-v1.0.exe`。
 2. 双击运行，把文档拖入窗口或点击“添加文件”。
 3. 选择输出目录和转换选项，点击“开始转换”。
 

@@ -12,10 +12,10 @@
 
 ## 下载与校验
 
-下载 `文页PDF_离线便携版_v1.0.exe` 后，可对照随附的 `SHA256.txt`：
+下载 `WenyePDF-Portable-v1.0.exe` 后，可对照随附的 `SHA256.txt`：
 
 ```text
-076DF78FB8DA2F2C0D516259BC7328946CAFA54464FE0494F972057D182250AC  文页PDF_离线便携版_v1.0.exe
+076DF78FB8DA2F2C0D516259BC7328946CAFA54464FE0494F972057D182250AC  WenyePDF-Portable-v1.0.exe
 ```
 
 程序为单个自包含 EXE，不要求预装 Office、LibreOffice 或 .NET。第一次启动会解压内置转换内核，可能需要稍等片刻。当前版本没有代码签名，Windows SmartScreen 可能显示未知发布者。
